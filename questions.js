@@ -99,7 +99,7 @@ const QUESTIONS = [
   },
   {
     text: "Выбери смайлик:",
-    image: null,
+    image: "assets/q8.jpg",
     answers: [
       { text: "🤐", weights: { sb: 3, dev: 0, ceo: 0, acc: 0, mgr: 0 } },
       { text: "🤨", weights: { sb: 0, dev: 0, ceo: 0, acc: 3, mgr: 0 } },
