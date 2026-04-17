@@ -17,7 +17,7 @@ const TIE_BREAK_ORDER = ['dev', 'sb', 'ceo', 'acc', 'mgr'];
 const QUESTIONS = [
   {
     text: "Пятница 18:01. UnitPay упал. Ты:",
-    image: null,
+    image: "assets/упал.jpg",
     answers: [
       { text: "🚪 18:00 и меня уже нет на работе", weights: { sb: 3, dev: 0, ceo: 0, acc: 0, mgr: 0 } },
       { text: "📣 Поднимаю всех", weights: { sb: 0, dev: 0, ceo: 3, acc: 0, mgr: 0 } },

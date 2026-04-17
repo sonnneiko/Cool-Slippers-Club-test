@@ -161,10 +161,11 @@ body {
 /* Question */
 .question-image {
   width: 100%;
-  border-radius: 12px;
-  max-height: 200px;
+  height: 220px;
+  border-radius: 16px;
   object-fit: cover;
   object-position: center center;
+  margin-bottom: 4px;
 }
 
 .question-text {
