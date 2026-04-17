@@ -72,17 +72,17 @@ const QUESTIONS = [
   },
   {
     text: "Кто из Смешариков больше подходит тебе по вайбу?",
-    image: null,
+    image: "assets/смешарики i.webp",
     answers: [
-      { text: "🦉 Совунья", weights: { sb: 3, dev: 0, ceo: 0, acc: 0, mgr: 0 } },
-      { text: "🐏 Бараш", weights: { sb: 3, dev: 0, ceo: 0, acc: 0, mgr: 0 } },
-      { text: "🐷 Нюша", weights: { sb: 0, dev: 0, ceo: 0, acc: 3, mgr: 0 } },
-      { text: "🐝 Пин", weights: { sb: 0, dev: 3, ceo: 0, acc: 0, mgr: 0 } },
-      { text: "🐇 Крош", weights: { sb: 0, dev: 3, ceo: 0, acc: 0, mgr: 0 } },
-      { text: "🦔 Ёжик", weights: { sb: 0, dev: 0, ceo: 0, acc: 0, mgr: 3 } },
-      { text: "🐦 Кар Карыч", weights: { sb: 0, dev: 0, ceo: 0, acc: 0, mgr: 3 } },
-      { text: "🐻 Копатыч", weights: { sb: 0, dev: 0, ceo: 3, acc: 0, mgr: 0 } },
-      { text: "🦌 Лосяш", weights: { sb: 0, dev: 0, ceo: 3, acc: 0, mgr: 0 } },
+      { text: "Совунья", weights: { sb: 3, dev: 0, ceo: 0, acc: 0, mgr: 0 } },
+      { text: "Бараш", weights: { sb: 3, dev: 0, ceo: 0, acc: 0, mgr: 0 } },
+      { text: "Нюша", weights: { sb: 0, dev: 0, ceo: 0, acc: 3, mgr: 0 } },
+      { text: "Пин", weights: { sb: 0, dev: 3, ceo: 0, acc: 0, mgr: 0 } },
+      { text: "Крош", weights: { sb: 0, dev: 3, ceo: 0, acc: 0, mgr: 0 } },
+      { text: "Ёжик", weights: { sb: 0, dev: 0, ceo: 0, acc: 0, mgr: 3 } },
+      { text: "Кар Карыч", weights: { sb: 0, dev: 0, ceo: 0, acc: 0, mgr: 3 } },
+      { text: "Копатыч", weights: { sb: 0, dev: 0, ceo: 3, acc: 0, mgr: 0 } },
+      { text: "Лосяш", weights: { sb: 0, dev: 0, ceo: 3, acc: 0, mgr: 0 } },
     ]
   },
   {
