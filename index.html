@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Твоя истинная роль в UnitPay</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- SCREEN 1: INTRO -->
+  <div id="screen-intro" class="screen">
+    <div class="card">
+      <img id="cat-avatar" class="avatar" src="assets/cat.jpg" alt="Клуб крутых тапок"
+           onerror="this.style.display='none'; document.getElementById('cat-fallback').style.display='flex'">
+      <div id="cat-fallback" class="avatar avatar--fallback" style="display:none">🐱</div>
+      <p class="club-label">клуб крутых тапок</p>
+      <h1 class="heading">Твоя истинная роль в UnitPay</h1>
+      <p class="subtext">10 вопросов</p>
+      <button class="btn btn--outline" id="btn-start">Начать тест ✦</button>
+    </div>
+  </div>
+
+  <!-- SCREEN 2: QUESTION -->
+  <div id="screen-question" class="screen" style="display:none">
+    <div class="card">
+      <div class="progress-row">
+        <div class="progress-track">
+          <div class="progress-fill" id="progress-fill"></div>
+        </div>
+        <span class="progress-label" id="progress-label">1 / 10</span>
+      </div>
+      <!-- question image injected here by JS when present -->
+      <p class="question-text" id="question-text"></p>
+      <div class="answers" id="answers-container"></div>
+      <button class="btn btn--filled" id="btn-next" disabled>Далее →</button>
+    </div>
+  </div>
+
+  <!-- SCREEN 3: RESULT -->
+  <div id="screen-result" class="screen" style="display:none">
+    <div class="card card--result">
+      <div class="result-emoji" id="result-emoji"></div>
+      <h2 class="result-name" id="result-name"></h2>
+      <img id="result-photo" class="avatar avatar--result" src="" alt=""
+           onerror="this.style.display='none'; document.getElementById('result-photo-fallback').style.display='flex'">
+      <div id="result-photo-fallback" class="avatar avatar--result avatar--fallback" style="display:none"></div>
+      <p class="result-description" id="result-description"></p>
+      <button class="btn btn--outline" id="btn-share">🔗 Поделиться</button>
+      <a href="#" class="restart-link" id="btn-restart">Пройти ещё раз</a>
+    </div>
+  </div>
+
+  <!-- TOAST -->
+  <div id="toast" class="toast" style="display:none">Ссылка скопирована ✓</div>
+
+  <script src="questions.js"></script>
+  <script src="quiz.js"></script>
+</body>
+</html>
