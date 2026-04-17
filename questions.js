@@ -109,7 +109,7 @@ const QUESTIONS = [
   },
   {
     text: "Ты сломал(!) UnitPay. Что будешь делать?",
-    image: null,
+    image: "assets/сломал.jpg",
     answers: [
       { text: "🏃 Сбегу", weights: { sb: 0, dev: 0, ceo: 3, acc: 0, mgr: 0 } },
       { text: "😭 Буду плакать", weights: { sb: 0, dev: 0, ceo: 0, acc: 0, mgr: 3 } },
