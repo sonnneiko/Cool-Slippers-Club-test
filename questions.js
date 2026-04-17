@@ -28,7 +28,7 @@ const QUESTIONS = [
   },
   {
     text: "Тебя зовут на корпоратив. Первая мысль:",
-    image: null,
+    image: "assets/корпарат.jpg",
     answers: [
       { text: "💻 Возьму ноут, мало ли", weights: { sb: 0, dev: 0, ceo: 0, acc: 0, mgr: 3 } },
       { text: "🤔 Кто будет?", weights: { sb: 0, dev: 0, ceo: 0, acc: 3, mgr: 0 } },
