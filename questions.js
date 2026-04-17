@@ -61,7 +61,7 @@ const QUESTIONS = [
   },
   {
     text: "Чем тебе больше всего нравится заниматься?",
-    image: null,
+    image: "assets/5.jpg",
     answers: [
       { text: "💻 Писать код", weights: { sb: 0, dev: 3, ceo: 0, acc: 0, mgr: 0 } },
       { text: "🚀 Приносить новые идеи и ставить задачи", weights: { sb: 0, dev: 0, ceo: 0, acc: 0, mgr: 3 } },
