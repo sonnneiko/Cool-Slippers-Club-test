@@ -17,7 +17,7 @@ const TIE_BREAK_ORDER = ['dev', 'sb', 'ceo', 'acc', 'mgr'];
 const QUESTIONS = [
   {
     text: "Пятница 18:01. UnitPay упал. Ты:",
-    image: "assets/упал.jpg",
+    image: "assets/q1.jpg",
     answers: [
       { text: "🚪 18:00 и меня уже нет на работе", weights: { sb: 3, dev: 0, ceo: 0, acc: 0, mgr: 0 } },
       { text: "📣 Поднимаю всех", weights: { sb: 0, dev: 0, ceo: 3, acc: 0, mgr: 0 } },
@@ -28,7 +28,7 @@ const QUESTIONS = [
   },
   {
     text: "Тебя зовут на корпоратив. Первая мысль:",
-    image: "assets/корпарат.jpg",
+    image: "assets/q2.jpg",
     answers: [
       { text: "💻 Возьму ноут, мало ли", weights: { sb: 0, dev: 0, ceo: 0, acc: 0, mgr: 3 } },
       { text: "🤔 Кто будет?", weights: { sb: 0, dev: 0, ceo: 0, acc: 3, mgr: 0 } },
@@ -39,7 +39,7 @@ const QUESTIONS = [
   },
   {
     text: "Лучшее описание твоего рабочего стола:",
-    image: "assets/рабочий стол.png",
+    image: "assets/q3.png",
     answers: [
       { text: "📁 Папочки с документами, чарджбеки", weights: { sb: 3, dev: 0, ceo: 0, acc: 0, mgr: 0 } },
       { text: "🌪 Всё что только можно", weights: { sb: 0, dev: 0, ceo: 3, acc: 0, mgr: 0 } },
@@ -61,7 +61,7 @@ const QUESTIONS = [
   },
   {
     text: "Чем тебе больше всего нравится заниматься?",
-    image: "assets/5.jpg",
+    image: "assets/q5.jpg",
     answers: [
       { text: "💻 Писать код", weights: { sb: 0, dev: 3, ceo: 0, acc: 0, mgr: 0 } },
       { text: "🚀 Приносить новые идеи и ставить задачи", weights: { sb: 0, dev: 0, ceo: 0, acc: 0, mgr: 3 } },
@@ -72,7 +72,7 @@ const QUESTIONS = [
   },
   {
     text: "Кто из Смешариков больше подходит тебе по вайбу?",
-    image: "assets/смешарики i.webp",
+    image: "assets/q6.webp",
     answers: [
       { text: "Совунья", weights: { sb: 3, dev: 0, ceo: 0, acc: 0, mgr: 0 } },
       { text: "Бараш", weights: { sb: 3, dev: 0, ceo: 0, acc: 0, mgr: 0 } },
@@ -87,7 +87,7 @@ const QUESTIONS = [
   },
   {
     text: "Ходишь ли ты в офис?",
-    image: "assets/офис.jpg",
+    image: "assets/q7.jpg",
     answers: [
       { text: "🏠 Нет, мне и на удалёнке хорошо", weights: { sb: 0, dev: 3, ceo: 0, acc: 0, mgr: 0 } },
       { text: "🏢 Да, 5 дней в неделю я в офисе", weights: { sb: 0, dev: 0, ceo: 3, acc: 0, mgr: 0 } },
@@ -109,7 +109,7 @@ const QUESTIONS = [
   },
   {
     text: "Ты сломал(!) UnitPay. Что будешь делать?",
-    image: "assets/сломал.jpg",
+    image: "assets/q9.jpg",
     answers: [
       { text: "🏃 Сбегу", weights: { sb: 0, dev: 0, ceo: 3, acc: 0, mgr: 0 } },
       { text: "😭 Буду плакать", weights: { sb: 0, dev: 0, ceo: 0, acc: 0, mgr: 3 } },
@@ -120,7 +120,7 @@ const QUESTIONS = [
   },
   {
     text: "У тебя есть кнопка «Удалить UnitPay». Нажмёшь?)",
-    image: "assets/поллии.jpg",
+    image: "assets/q10.jpg",
     answers: [
       { text: "😈 Да", weights: { sb: 0, dev: 2, ceo: 2, acc: 2, mgr: 0 } },
       { text: "😤 Нет", weights: { sb: 3, dev: 0, ceo: 0, acc: 0, mgr: 3 } },
