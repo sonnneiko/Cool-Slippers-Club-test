@@ -55,6 +55,7 @@ function renderQuestion() {
     img.className = 'question-image';
     img.src = q.image;
     img.alt = '';
+    if (q.imagePosition) img.style.objectPosition = q.imagePosition;
     document.getElementById('question-text').before(img);
   }
 
