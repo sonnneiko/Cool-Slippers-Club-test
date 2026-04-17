@@ -39,7 +39,7 @@ const QUESTIONS = [
   },
   {
     text: "Лучшее описание твоего рабочего стола:",
-    image: null,
+    image: "assets/рабочий стол.png",
     answers: [
       { text: "📁 Папочки с документами, чарджбеки", weights: { sb: 3, dev: 0, ceo: 0, acc: 0, mgr: 0 } },
       { text: "🌪 Всё что только можно", weights: { sb: 0, dev: 0, ceo: 3, acc: 0, mgr: 0 } },
