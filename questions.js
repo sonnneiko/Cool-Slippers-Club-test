@@ -87,7 +87,7 @@ const QUESTIONS = [
   },
   {
     text: "Ходишь ли ты в офис?",
-    image: null,
+    image: "assets/офис.jpg",
     answers: [
       { text: "🏠 Нет, мне и на удалёнке хорошо", weights: { sb: 0, dev: 3, ceo: 0, acc: 0, mgr: 0 } },
       { text: "🏢 Да, 5 дней в неделю я в офисе", weights: { sb: 0, dev: 0, ceo: 3, acc: 0, mgr: 0 } },
