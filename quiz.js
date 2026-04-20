@@ -1,6 +1,6 @@
 // State
 let currentQuestion = 0;
-let scores = { sb: 0, dev: 0, ceo: 0, acc: 0 };
+let scores = { sb: 0, dev: 0, ceo: 0, acc: 0, mgr: 0 };
 let selectedAnswer = null;
 let toastTimer = null;
 
@@ -18,7 +18,7 @@ function showScreen(name) {
 
 function resetQuiz() {
   currentQuestion = 0;
-  scores = { sb: 0, dev: 0, ceo: 0, acc: 0 };
+  scores = { sb: 0, dev: 0, ceo: 0, acc: 0, mgr: 0 };
   selectedAnswer = null;
   showScreen('intro');
 }
@@ -26,7 +26,7 @@ function resetQuiz() {
 // Intro
 document.getElementById('btn-start').addEventListener('click', () => {
   currentQuestion = 0;
-  scores = { sb: 0, dev: 0, ceo: 0, acc: 0 };
+  scores = { sb: 0, dev: 0, ceo: 0, acc: 0, mgr: 0 };
   selectedAnswer = null;
   showScreen('question');
   renderQuestion();
