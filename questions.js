@@ -50,7 +50,7 @@ const QUESTIONS = [
   },
   {
     text: "Взял бы ты в UnitPay ООО «Тмыв денег» или АО «Куда деньги»?",
-    image: null,
+    image: "assets/oooTmv.jpg",
     answers: [
       { text: "🚫 Категорически нет", weights: { sb: 3, dev: 0, ceo: 0, acc: 0, mgr: 0 } },
       { text: "📈 Если оборот большой — возьмём, порешаем", weights: { sb: 0, dev: 0, ceo: 3, acc: 0, mgr: 0 } },
@@ -87,7 +87,7 @@ const QUESTIONS = [
   },
   {
     text: "Ходишь ли ты в офис?",
-    image: "assets/q7-new.jpg",
+    image: "assets/role-stol.jpg",
     answers: [
       { text: "🏠 Нет, мне и на удалёнке хорошо", weights: { sb: 0, dev: 3, ceo: 0, acc: 0, mgr: 0 } },
       { text: "🏢 Да, 5 дней в неделю я в офисе", weights: { sb: 0, dev: 0, ceo: 3, acc: 0, mgr: 0 } },
@@ -109,7 +109,7 @@ const QUESTIONS = [
   },
   {
     text: "Ты сломал(!) UnitPay. Что будешь делать?",
-    image: "assets/q9.jpg",
+    image: "assets/slomal.jpg",
     answers: [
       { text: "🏃 Сбегу", weights: { sb: 0, dev: 0, ceo: 3, acc: 0, mgr: 0 } },
       { text: "😭 Буду плакать", weights: { sb: 0, dev: 0, ceo: 0, acc: 0, mgr: 3 } },
@@ -133,7 +133,7 @@ const ROLES = {
     name: "Служба безопасности",
     emoji: "🔒",
     description: "Твоя настоящая роль — служба безопасности. Если ты уже тут — поздравляю. Если нет... стоит задуматься.",
-    photo: "assets/role-sb.jpg"
+    photo: "assets/sb.jpg"
   },
   dev: {
     name: "Разработка",
