@@ -39,7 +39,7 @@ const QUESTIONS = [
   },
   {
     text: "Лучшее описание твоего рабочего стола:",
-    image: "assets/q3.png",
+    image: "assets/role-stol.jpg",
     answers: [
       { text: "📁 Папочки с документами, чарджбеки", weights: { sb: 3, dev: 0, ceo: 0, acc: 0, mgr: 0 } },
       { text: "🌪 Всё что только можно", weights: { sb: 0, dev: 0, ceo: 3, acc: 0, mgr: 0 } },
@@ -87,7 +87,7 @@ const QUESTIONS = [
   },
   {
     text: "Ходишь ли ты в офис?",
-    image: "assets/role-stol.jpg",
+    image: "assets/q7-new.jpg",
     answers: [
       { text: "🏠 Нет, мне и на удалёнке хорошо", weights: { sb: 0, dev: 3, ceo: 0, acc: 0, mgr: 0 } },
       { text: "🏢 Да, 5 дней в неделю я в офисе", weights: { sb: 0, dev: 0, ceo: 3, acc: 0, mgr: 0 } },
